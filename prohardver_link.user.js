@@ -19,7 +19,7 @@
 // @include       https://logout.hu/*
 // @include       https://www.logout.hu/*
 // @include       https://m.logout.hu/*
-// @updateURL     https://raw.githubusercontent.com/dobragab/prohardver-userscripts/master/prohardver_link.user.js
+// @updateURL     http://users.hszk.bme.hu/~dg1308/static/prohardver_link.user.js
 // @grant         none
 // ==/UserScript==
 
@@ -52,6 +52,7 @@
 
     replace_links(document);
 
-    if (GM && GM.info && GM.info.scriptHandler !== "Greasemonkey")
+    if (typeof GM === "undefined" || GM.info.scriptHandler !== "Greasemonkey")
         ajax_openContent = my_ajax_openContent;
+
 })();
