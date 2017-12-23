@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          PROHARDVER! link redirecter
-// @version       1.5
+// @version       1.6
 // @description   replaces prohardver.hu forum links
 // @author        Intruder2k5, dobragab
 // @namespace     https://prohardver.hu/
@@ -19,7 +19,7 @@
 // @include       https://logout.hu/*
 // @include       https://www.logout.hu/*
 // @include       https://m.logout.hu/*
-// @updateURL     http://users.hszk.bme.hu/~dg1308/static/prohardver_link.user.js
+// @updateURL     https://raw.githubusercontent.com/dobragab/prohardver-userscripts/master/prohardver_link.user.js
 // @grant         none
 // ==/UserScript==
 
