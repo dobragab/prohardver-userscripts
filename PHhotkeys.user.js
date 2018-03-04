@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name          PROHARDVER hotkeys in editor
-// @author        dqdb, dobragab
+// @author        dqdb, dobragab, milangfx
 // @namespace     https://www.prohardver.hu/
 // @match         https://www.prohardver.hu/muvelet/*
 // @match         https://prohardver.hu/muvelet/*
@@ -15,7 +15,7 @@
 // @match         https://www.hardverapro.hu/muvelet/*
 // @match         https://hardverapro.hu/muvelet/*
 // @updateURL     https://raw.githubusercontent.com/dobragab/prohardver-userscripts/master/PHhotkeys.user.js
-// @version       1.4
+// @version       1.5
 // ==/UserScript==
 
 function event_handler()
