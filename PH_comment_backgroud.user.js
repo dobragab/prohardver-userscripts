@@ -25,6 +25,6 @@
     $(document).ready(function() {
         $('a:contains("milangfx")').filter(function(index){
             return $(this).text() === "milangfx";
-        }).parent().parent().parent().css('background-color', '#77abce');
+        }).parent().parent().parent().css('background-color', '#bebebe');
     });
 })();
