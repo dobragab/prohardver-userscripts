@@ -12,8 +12,6 @@
 // @match         https://itcafe.hu/muvelet/*
 // @match         https://www.gamepod.hu/muvelet/*
 // @match         https://gamepod.hu/muvelet/*
-// @match         https://www.bitmarket.hu/muvelet/*
-// @match         https://bitmarket.hu/muvelet/*
 // @match         https://www.hardverapro.hu/muvelet/*
 // @match         https://hardverapro.hu/muvelet/*
 // @updateURL     https://raw.githubusercontent.com/dobragab/prohardver-userscripts/master/PHhotkeys.user.js
@@ -43,7 +41,6 @@ function event_handler()
 		"ctrl-d" : buttons.snapshotItem(n++), // code
 		"ctrl-m" : buttons.snapshotItem(n++), // monospace
 		"ctrl-w" : buttons.snapshotItem(n++), // raw
-		"ctrl-p" : buttons.snapshotItem(n++), // paragraph
 		"ctrl-l" : buttons.snapshotItem(n++), // left-aligned
 		"ctrl-r" : buttons.snapshotItem(n++), // right-aligned
 		"ctrl-e" : buttons.snapshotItem(n++), // centered
