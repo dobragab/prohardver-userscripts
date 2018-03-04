@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         PHadatlapTG
-// @version      1.0
+// @version      1.1
 // @description  Topikgazdák adatlapján megjelennek a topikjai
 // @author       dobragab
 // @include      *prohardver.hu/tag*
@@ -24,7 +24,7 @@
         return;
     }
 
-    var username = document.forms[0].getElementsByTagName("H1")[0].innerText;
+    var username = document.forms[0].getElementsByTagName("H1")[0].textContent;
 
     var form = document.forms[0];
     var toBefore = form.nextSibling;
@@ -58,13 +58,13 @@
             if (links.length < 2)
                 continue;
 
-            var actualUser = links[0].innerText.trim();
+            var actualUser = links[0].textContent.trim();
             if (actualUser !== username)
                 continue;
 
             var clone = par.cloneNode(true);
 
-            while (clone.innerText[0] !== "●")
+            while (clone.childNodes[0].textContent[0] !== "●")
                 clone.removeChild(clone.firstChild);
 
             addItem(document.createElement("hr"));
