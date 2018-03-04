@@ -6,7 +6,7 @@
 // @match        https://mobilarena.hu/forum/*
 // @match        https://mobilarena.hu/tema/*
 // @match        https://logout.hu/forum/*
-// @match        https://logout.hu/tems/*
+// @match        https://logout.hu/tema/*
 // @match        https://itcafe.hu/forum/*
 // @match        https://itcafe.hu/tema/*
 // @match        https://gamepod.hu/forum/*
